@@ -1,58 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Assignment Details</title>
-<style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    .step { margin-top: 20px; padding: 10px; background-color: #f4f4f4; border-radius: 8px; }
-    .highlight { color: red; font-weight: bold; }
-</style>
+    <meta charset="UTF-8">
+    <title>JSON Data</title>
 </head>
 <body>
-    <h1>Assignment Details</h1>
-    <div id="assignmentName"></div>
-    <div id="creatorEmail"></div>
-    <div id="steps"></div>
-
-<script>
-    // JSON data
-    var jsonData = {
-        "assignment_name": "highlight the input and the output",
-        "creator_email": "apachara2@gmail.com",
-        "steps": {
-            "1": {
-                "highlight": "input1",
-                "context": "lorem ipsum sit ame"
-            },
-            "2": {
-                "highlight": "output4",
-                "context": "connect output right here"
+    <h1>JSON Data</h1>
+    <pre id="jsonData"></pre>
+    <script>
+        const data = {
+            "assignment_name": "highlight the input and the output",
+            "creator_email": "apachara2@gmail.com",
+            "steps": {
+                "1": {
+                    "highlight": "input1",
+                    "context": "lorem ipsum sit ame"
+                },
+                "2": {
+                    "highlight": "output4",
+                    "context": "connect output right here"
+                }
             }
-        }
-    };
+        };
 
-    // Display Assignment Name and Creator Email
-    document.getElementById('assignmentName').innerHTML = "<strong>Assignment Name:</strong> " + jsonData.assignment_name;
-    document.getElementById('creatorEmail').innerHTML = "<strong>Creator Email:</strong> " + jsonData.creator_email;
-
-    // Function to display steps
-    function displaySteps(steps) {
-        var stepsContainer = document.getElementById('steps');
-        for (var step in steps) {
-            var stepData = steps[step];
-            var stepDiv = document.createElement('div');
-            stepDiv.className = 'step';
-            stepDiv.innerHTML = "<strong>Step " + step + ":</strong> " +
-                                "<p><span class='highlight'>" + stepData.highlight + "</span>: " +
-                                stepData.context + "</p>";
-            stepsContainer.appendChild(stepDiv);
-        }
-    }
-
-    // Call function to display steps
-    displaySteps(jsonData.steps);
-
-</script>
+        document.getElementById('jsonData').textContent = JSON.stringify(data, null, 4);
+    </script>
 </body>
 </html>
