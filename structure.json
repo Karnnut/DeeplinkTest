@@ -16,7 +16,7 @@
       "3": {
         "function": "connect",
         "component": "input1",
-        "externalComponent": "Button"
+        "externalComponent": "button"
       }
     }
 }
