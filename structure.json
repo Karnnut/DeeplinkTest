@@ -1,33 +1,22 @@
-{
-    "assignment_name" : "Example Course",
-    "creator_email" : "apachara2@gmail.com",
+
+  {
+    "assignment_name": "Example Course",
+    "creator_email": "apachara2@gmail.com",
     "ref_url": null,
     "steps": {
-        "1": {
+      "1": {
         "function": "context",
-        "context": "Yo"
-        },
-        "2": {
+        "context": "Yo this is a first connect this is show only a text in the field"
+      },
+      "2": {
         "function": "highlight",
         "component": "input1",
-        "context": "this is input number 1"
-        },
-        "3": {
+        "context": "this is input number 1 and please connect it to this port OK"
+      },
+      "3": {
         "function": "connect",
         "component": "input1",
         "externalComponent": "Button"
-        }
-    }
-}
-
-{
-    "assignment_name" : "another example course",
-    "creator_email" : "fake@mail.com",
-    "ref_url": null,
-    "steps": {
-        "1": {
-        "function": "context",
-        "context": "This is description"
-        }
+      }
     }
 }
