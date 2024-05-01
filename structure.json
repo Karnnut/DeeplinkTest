@@ -1,14 +1,28 @@
 {
-    "assignment_name" : "highlight the input and the output",
+    "assignment_name" : "Example Course",
     "creator_email" : "apachara2@gmail.com",
-    "steps":{
+    "ref_url": null,
+    "steps": {
         "1": {
-            "highlight" : "input1",
-            "context" : "lorem ipsum sit ame"
+        "function": "context",
+        "context": "Yo"
         },
         "2": {
-            "highlight" : "output4",
-            "context" : "connect output right here"
+        "function": "highlight",
+        "component": "input-1",
+        "context": "this is input number 1"
+        }
+    }
+}
+
+{
+    "assignment_name" : "another example course",
+    "creator_email" : "fake@mail.com",
+    "ref_url": null,
+    "steps": {
+        "1": {
+        "function": "context",
+        "context": "This is description"
         }
     }
 }
