@@ -1,5 +1,6 @@
 [
     {
+        "_id": "1233536345634753473467567",
         "assignment_name": "Example Course 1",
         "description": "lorem ipsum sit ame",
         "creator_id": "id12345",
@@ -22,6 +23,7 @@
         }
     },
     {
+        "id": "8934728947598374985",
         "assignment_name": "Example Course 2",
         "description": "lorem ipsum sit ame",
         "creator_id": "id12345",
