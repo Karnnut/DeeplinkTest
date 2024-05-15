@@ -1,23 +1,46 @@
-
-  {
-    "id": "987654321",
-    "assignment_name": "Example Course",
-    "creator_email": "apachara2@gmail.com",
-    "ref_url": null,
-    "steps": {
-      "1": {
-        "function": "context",
-        "context": "Yo this is a first connect this is show only a text in the field"
-      },
-      "2": {
-        "function": "highlight",
-        "component": "input1",
-        "context": "this is input number 1 and please connect it to this port OK"
-      },
-      "3": {
-        "function": "connect",
-        "component": "input1",
-        "externalComponent": "button"
-      }
+[
+    {
+        "assignment_name": "Example Course 1",
+        "description": "lorem ipsum sit ame",
+        "creator_id": "id12345",
+        "ref_url": null,
+        "steps": {
+            "1": {
+                "function": "context",
+                "context": "yo"
+            },
+            "2": {
+                "function": "highlight",
+                "component": "input1",
+                "context": "this is input number 1"
+            },
+            "3": {
+                "function": "connect",
+                "component": "input1",
+                "externalComponent": "button"
+            }
+        }
+    },
+    {
+        "assignment_name": "Example Course 2",
+        "description": "lorem ipsum sit ame",
+        "creator_id": "id12345",
+        "ref_url": null,
+        "steps": {
+            "1": {
+                "function": "context",
+                "context": "yo"
+            },
+            "2": {
+                "function": "highlight",
+                "component": "input1",
+                "context": "this is input number 1"
+            },
+            "3": {
+                "function": "connect",
+                "component": "input1",
+                "externalComponent": "button"
+            }
+        }
     }
-}
+]
