@@ -1,6 +1,6 @@
 [
     {
-        "_id": "1233536345634753473467567",
+        "_id": "1234",
         "assignment_name": "Example Course 1",
         "description": "lorem ipsum sit ame",
         "creator_id": "id12345",
@@ -8,7 +8,7 @@
         "steps": {
             "1": {
                 "function": "context",
-                "context": "yo"
+                "context": "yo1"
             },
             "2": {
                 "function": "highlight",
@@ -23,7 +23,7 @@
         }
     },
     {
-        "_id": "8934728947598374985",
+        "_id": "2234",
         "assignment_name": "Example Course 2",
         "description": "lorem ipsum sit ame",
         "creator_id": "id12345",
@@ -31,7 +31,99 @@
         "steps": {
             "1": {
                 "function": "context",
-                "context": "yo"
+                "context": "yo2"
+            },
+            "2": {
+                "function": "highlight",
+                "component": "input1",
+                "context": "this is input number 1"
+            },
+            "3": {
+                "function": "connect",
+                "component": "input1",
+                "externalComponent": "button"
+            }
+        }
+    },
+    {
+        "_id": "3334",
+        "assignment_name": "Example Course 1",
+        "description": "lorem ipsum sit ame",
+        "creator_id": "id12345",
+        "ref_url": null,
+        "steps": {
+            "1": {
+                "function": "context",
+                "context": "yo3"
+            },
+            "2": {
+                "function": "highlight",
+                "component": "input1",
+                "context": "this is input number 1"
+            },
+            "3": {
+                "function": "connect",
+                "component": "input1",
+                "externalComponent": "button"
+            }
+        }
+    },
+    {
+        "_id": "4444",
+        "assignment_name": "Example Course 2",
+        "description": "lorem ipsum sit ame",
+        "creator_id": "id12345",
+        "ref_url": null,
+        "steps": {
+            "1": {
+                "function": "context",
+                "context": "yo4"
+            },
+            "2": {
+                "function": "highlight",
+                "component": "input1",
+                "context": "this is input number 1"
+            },
+            "3": {
+                "function": "connect",
+                "component": "input1",
+                "externalComponent": "button"
+            }
+        }
+    },
+    {
+        "_id": "5555",
+        "assignment_name": "Example Course 1",
+        "description": "lorem ipsum sit ame",
+        "creator_id": "id12345",
+        "ref_url": null,
+        "steps": {
+            "1": {
+                "function": "context",
+                "context": "yo5"
+            },
+            "2": {
+                "function": "highlight",
+                "component": "input1",
+                "context": "this is input number 1"
+            },
+            "3": {
+                "function": "connect",
+                "component": "input1",
+                "externalComponent": "button"
+            }
+        }
+    },
+    {
+        "_id": "6666",
+        "assignment_name": "Example Course 2",
+        "description": "lorem ipsum sit ame",
+        "creator_id": "id12345",
+        "ref_url": null,
+        "steps": {
+            "1": {
+                "function": "context",
+                "context": "yo6"
             },
             "2": {
                 "function": "highlight",
