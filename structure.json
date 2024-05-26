@@ -1,145 +1,43 @@
 [
     {
-        "_id": "1234",
-        "assignment_name": "Example Course 1",
-        "description": "lorem ipsum sit ame",
-        "creator_id": "id12345",
+        "_id": "1011",
+        "assignment_name": "Learn to read sensor values (Input).",
+        "description": "Learn to read sensor values (Input).",
+        "creator_id": "GogoBoard",
         "ref_url": null,
         "steps": {
             "1": {
-                "function": "context",
-                "context": "this is a demo for gogoboard ar"
-            },
-            "2": {
-                "function": "highlight",
-                "component": "input1",
-                "context": "this is input number 1"
-            },
-            "3": {
                 "function": "connect",
                 "component": "input1",
-                "context": "Plean connect Button port to input1",
+                "context": "Please conenct Light Sensor to InputPort1",
                 "externalComponent": "button"
+            },
+            "2": {
+                "function": "context",
+                "context": "Now you can read a value from Gogocode.",
             }
         }
     },
     {
-        "_id": "2234",
-        "assignment_name": "Example Course 2",
-        "description": "lorem ipsum sit ame",
-        "creator_id": "id12345",
+        "_id": "1012",
+        "assignment_name": "Learn to operate equipment (Output).",
+        "description": "Learn to operate equipment (Output).",
+        "creator_id": "GogoBoard",
         "ref_url": null,
         "steps": {
             "1": {
                 "function": "context",
-                "context": "this is a demo for gogoboard ar"
+                "context": "Learn to operate equipment (Output)."
             },
             "2": {
-                "function": "highlight",
-                "component": "input1",
-                "context": "this is input number 1"
-            },
-            "3": {
                 "function": "connect",
-                "component": "input1",
-                "context": "Plean connect Button port to input1",
+                "component": "output1",
+                "context": "Please conenct Light Sensor to InputPort1",
                 "externalComponent": "button"
-            }
-        }
-    },
-    {
-        "_id": "3334",
-        "assignment_name": "Example Course 3",
-        "description": "lorem ipsum sit ame",
-        "creator_id": "id12345",
-        "ref_url": null,
-        "steps": {
-            "1": {
+            },
+             "3": {
                 "function": "context",
-                "context": "this is a demo for gogoboard ar"
-            },
-            "2": {
-                "function": "highlight",
-                "component": "input1",
-                "context": "this is input number 1"
-            },
-            "3": {
-                "function": "connect",
-                "component": "input1",
-                "context": "Plean connect Button port to input1",
-                "externalComponent": "button"
-            }
-        }
-    },
-    {
-        "_id": "4444",
-        "assignment_name": "Example Course 4",
-        "description": "lorem ipsum sit ame",
-        "creator_id": "id12345",
-        "ref_url": null,
-        "steps": {
-            "1": {
-                "function": "context",
-                "context": "this is a demo for gogoboard ar"
-            },
-            "2": {
-                "function": "highlight",
-                "component": "input1",
-                "context": "this is input number 1"
-            },
-            "3": {
-                "function": "connect",
-                "component": "input1",
-                "context": "Plean connect Button port to input1",
-                "externalComponent": "button"
-            }
-        }
-    },
-    {
-        "_id": "5555",
-        "assignment_name": "Example Course 5",
-        "description": "lorem ipsum sit ame",
-        "creator_id": "id12345",
-        "ref_url": null,
-        "steps": {
-            "1": {
-                "function": "context",
-                "context": "this is a demo for gogoboard ar"
-            },
-            "2": {
-                "function": "highlight",
-                "component": "input1",
-                "context": "this is input number 1"
-            },
-            "3": {
-                "function": "connect",
-                "component": "input1",
-                "context": "Plean connect Button port to input1",
-                "externalComponent": "button"
-            }
-        }
-    },
-    {
-        "_id": "6666",
-        "assignment_name": "Example Course 6",
-        "description": "lorem ipsum sit ame",
-        "creator_id": "id12345",
-        "ref_url": null,
-        "steps": {
-            "1": {
-                "function": "context",
-                "context": "this is a demo for gogoboard ar"
-            },
-            "2": {
-                "function": "highlight",
-                "component": "input1",
-                "context": "this is input number 1"
-            },
-            "3": {
-                "function": "connect",
-                "component": "input1",
-                "context": "Plean connect Button port to input1",
-                "externalComponent": "button"
+                "context": "Now you can operate a equipment from Gogocode.",
             }
         }
     }
