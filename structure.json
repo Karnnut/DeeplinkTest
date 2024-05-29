@@ -40,5 +40,34 @@
                 "context": "Now you can operate a equipment from Gogocode.",
             }
         }
+    },
+    {
+        "_id": "1013",
+        "assignment_name": "Automatic street light",
+        "description": "Creating an automatic lighting control system that is highly sensitive and can respond quickly and accurately to changes in light.",
+        "creator_id": "GogoBoard",
+        "ref_url": null,
+        "steps": {
+            "1": {
+                "function": "context",
+                "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
+            },
+            "2": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Connect the light sensor to input port number 1.",
+                "externalComponent": "button"
+            },
+             "3": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the LED bulb to output port number 1.",
+                "externalComponent": "button"
+            },
+            "4": {
+                "function": "context",
+                "context": "You can simulate day and night. Cover the light sensor with your hand. Then observe the sensor values ​​during the day and at night. Consider each case and record the threshold value."
+            }
+        }
     }
 ]
