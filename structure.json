@@ -10,7 +10,7 @@
                 "function": "connect",
                 "component": "input1",
                 "context": "Please conenct Light Sensor to InputPort1",
-                "externalComponent": "button"
+                "externalComponent": "lightsensor"
             },
             "2": {
                 "function": "context",
@@ -33,7 +33,7 @@
                 "function": "connect",
                 "component": "output1",
                 "context": "Please conenct Light Sensor to InputPort1",
-                "externalComponent": "button"
+                "externalComponent": "lightsensor"
             },
              "3": {
                 "function": "context",
@@ -56,13 +56,13 @@
                 "function": "connect",
                 "component": "input1",
                 "context": "Connect the light sensor to input port number 1.",
-                "externalComponent": "button"
+                "externalComponent": "lightsensor"
             },
              "3": {
                "function": "connect",
                 "component": "output1",
                 "context": "Connect the LED bulb to output port number 1.",
-                "externalComponent": "button"
+                "externalComponent": "led"
             },
             "4": {
                 "function": "context",
