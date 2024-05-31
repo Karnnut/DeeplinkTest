@@ -3,7 +3,7 @@
         "_id": "1011",
         "assignment_name": "Learn to read sensor values (Input).",
         "description": "Learn to read sensor values (Input).",
-        "creator_id": "GogoBoard",
+        "creator_id": "Gogo Board",
         "ref_url": null,
         "steps": {
             "1": {
@@ -22,7 +22,7 @@
         "_id": "1012",
         "assignment_name": "Learn to operate equipment (Output).",
         "description": "Learn to operate equipment (Output).",
-        "creator_id": "GogoBoard",
+        "creator_id": "Gogo Board",
         "ref_url": null,
         "steps": {
             "1": {
@@ -45,7 +45,7 @@
         "_id": "1013",
         "assignment_name": "Automatic street light",
         "description": "Creating an automatic lighting control system that is highly sensitive and can respond quickly and accurately to changes in light.",
-        "creator_id": "GogoBoard",
+        "creator_id": "Gogo Board",
         "ref_url": null,
         "steps": {
             "1": {
