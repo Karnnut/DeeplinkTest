@@ -58,6 +58,72 @@
                 "context": "Please conenct Light Sensor to Output Port1",
                 "externalComponent": "luminosity"
             },
+            "3": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct extensioninput to Output Port1",
+                "externalComponent": "extensioninput"
+            },
+            "4": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct extensionoutput to Output Port1",
+                "externalComponent": "extensionoutput"
+            },
+            "5": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct servo to Output Port1",
+                "externalComponent": "servo"
+            },
+            "6": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct pinbreakout2 to Output Port1",
+                "externalComponent": "pinbreakout2"
+            },
+            "7": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct pinbreakout4 to Output Port1",
+                "externalComponent": "pinbreakout4"
+            },
+            "8": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct joystick to Output Port1",
+                "externalComponent": "joystick"
+            },
+            "9": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct knob to Output Port1",
+                "externalComponent": "knob"
+            },
+            "10": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct ledwhite to Output Port1",
+                "externalComponent": "ledwhite"
+            },
+            "11": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct ledredblue to Output Port1",
+                "externalComponent": "ledredblue"
+            },
+            "2": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct limitswitch to Output Port1",
+                "externalComponent": "limitswitch"
+            },
+            "12": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct digitaltempandrh to Output Port1",
+                "externalComponent": "digitaltempandrh"
+            },
              "3": {
                 "function": "context",
                 "context": "Now you can operate a equipment from Gogocode.",
