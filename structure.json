@@ -32,8 +32,31 @@
             "2": {
                 "function": "connect",
                 "component": "output1",
-                "context": "Please conenct Light Sensor to InputPort1",
+                "context": "Please conenct Light Sensor to Output Port1",
                 "externalComponent": "lightsensor"
+            },
+             "3": {
+                "function": "context",
+                "context": "Now you can operate a equipment from Gogocode.",
+            }
+        }
+    },
+    {
+        "_id": "1015",
+        "assignment_name": "Testing new port hightlight",
+        "description": "Learn to operate equipment (Output).",
+        "creator_id": "GoGo Board",
+        "ref_url": null,
+        "steps": {
+            "1": {
+                "function": "context",
+                "context": "Learn to operate equipment (Output)."
+            },
+            "2": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct Light Sensor to Output Port1",
+                "externalComponent": "luminosity"
             },
              "3": {
                 "function": "context",
