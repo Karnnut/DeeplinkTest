@@ -58,6 +58,18 @@
                 "context": "Please conenct Light Sensor to Output Port1",
                 "externalComponent": "luminosity"
             },
+            "2.1": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct limitswitch to Output Port1",
+                "externalComponent": "limitswitch"
+            },
+            "2.2": {
+                "function": "connect",
+                "component": "input1",
+                "context": "Please conenct rainsensor to Output Port1",
+                "externalComponent": "rainsensor"
+            },
             "3": {
                 "function": "connect",
                 "component": "input1",
