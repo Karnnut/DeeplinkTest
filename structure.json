@@ -52,19 +52,230 @@
                 "function": "context",
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
-            "2": {
-                "function": "connect",
-                "component": "input1",
-                "context": "Connect the light sensor to input port number 1.",
-                "externalComponent": "lightsensor"
+             "2": {
+                "function": "hightlight",
+                 "component": "allinput",
+                "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
-             "3": {
-               "function": "connect",
-                "component": "output1",
-                "context": "Connect the LED bulb to output port number 1.",
-                "externalComponent": "led"
+            "3": {
+                "function": "hightlight",
+                "component": "alloutput",
+                "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
             "4": {
+                "function": "hightlight",
+                "component": "allservo",
+                "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
+            },
+            "5": {
+                "function": "hightlight",
+                "component": "allcon",
+                "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
+            },
+            "6": {
+                "function": "hightlight",
+                "component": "addon2",
+                "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
+            },
+            "7": {
+                "function": "hightlight",
+                "component": "addon1",
+                "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
+            },
+            "8": {
+                "function": "hightlight",
+                "component": "input1",
+                "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
+            },
+            "9": {
+                "function": "hightlight",
+                "component": "i2c",
+                "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
+            },
+            "10": {
+                "function": "hightlight",
+                "component": "onoff",
+                "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
+            },
+            "11": {
+                "function": "hightlight",
+                "component": "power",
+                "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
+            },
+            "12": {
+                "function": "hightlight",
+                "component": "joystick",
+                "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
+            },
+             "13": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the luminosity to output port number 1.",
+                "externalComponent": "luminosity"
+            },
+            "14": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the extensioninput to output port number 1.",
+                "externalComponent": "extensioninput"
+            },
+            "15": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the extensionoutput to output port number 1.",
+                "externalComponent": "extensionoutput"
+            },
+            "16": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the servo to output port number 1.",
+                "externalComponent": "servo"
+            },
+            "17": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the pinbreakout2 to output port number 1.",
+                "externalComponent": "pinbreakout2"
+            },
+            "18": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the pinbreakout4 to output port number 1.",
+                "externalComponent": "pinbreakout4"
+            },
+            "19": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the joystick to output port number 1.",
+                "externalComponent": "joystick"
+            },
+            "20": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the knob to output port number 1.",
+                "externalComponent": "knob"
+            },
+            "21": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the ledwhite to output port number 1.",
+                "externalComponent": "ledwhite"
+            },
+            "22": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the ledredblue to output port number 1.",
+                "externalComponent": "ledredblue"
+            },
+            "23": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the limitswitch to output port number 1.",
+                "externalComponent": "limitswitch"
+            },
+            "24": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the digitaltempandrh to output port number 1.",
+                "externalComponent": "digitaltempandrh"
+            },
+            "25": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the lightsensor to output port number 1.",
+                "externalComponent": "lightsensor"
+            },
+            "26": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the proximity to output port number 1.",
+                "externalComponent": "proximity"
+            },
+            "28": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the tempsensor to output port number 1.",
+                "externalComponent": "tempsensor"
+            },
+            "29": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the temprelativehumidity to output port number 1.",
+                "externalComponent": "temprelativehumidity"
+            },
+            "30": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the button to output port number 1.",
+                "externalComponent": "button"
+            },
+            "31": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the grooveextension to output port number 1.",
+                "externalComponent": "grooveextension"
+            },
+            "32": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the grooveterminalblock to output port number 1.",
+                "externalComponent": "grooveterminalblock"
+            },
+            "33": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the buttonset to output port number 1.",
+                "externalComponent": "buttonset"
+            },
+            "34": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the rainsensor to output port number 1.",
+                "externalComponent": "rainsensor"
+            },
+            "35": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the motorgear to output port number 1.",
+                "externalComponent": "motorgear"
+            },
+            "36": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the servomotor to output port number 1.",
+                "externalComponent": "servomotor"
+            },
+            "37": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the plasticwheels to output port number 1.",
+                "externalComponent": "plasticwheels"
+            },
+            "38": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the soilhumiditysensor to output port number 1.",
+                "externalComponent": "soilhumiditysensor"
+            },
+            "39": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the jstterminalblock to output port number 1.",
+                "externalComponent": "jstterminalblock"
+            },
+            "40": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the led to output port number 1.",
+                "externalComponent": "led"
+            },
+            "41": {
+               "function": "connect",
+                "component": "output1",
+                "context": "Connect the leverswitch to output port number 1.",
+                "externalComponent": "leverswitch"
+            },
+            "42": {
                 "function": "context",
                 "context": "You can simulate day and night. Cover the light sensor with your hand. Then observe the sensor values ​​during the day and at night. Consider each case and record the threshold value."
             }
