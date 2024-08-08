@@ -53,47 +53,47 @@
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
              "2": {
-                "function": "hightlight",
+                "function": "highlight",
                  "component": "allinput",
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
             "3": {
-                "function": "hightlight",
+                "function": "highlight",
                 "component": "alloutput",
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
             "4": {
-                "function": "hightlight",
+                "function": "highlight",
                 "component": "allservo",
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
             "5": {
-                "function": "hightlight",
+                "function": "highlight",
                 "component": "allcon",
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
             "6": {
-                "function": "hightlight",
+                "function": "highlight",
                 "component": "addon2",
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
             "7": {
-                "function": "hightlight",
+                "function": "highlight",
                 "component": "addon1",
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
             "8": {
-                "function": "hightlight",
+                "function": "highlight",
                 "component": "input1",
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
             "9": {
-                "function": "hightlight",
+                "function": "highlight",
                 "component": "i2c",
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
             "10": {
-                "function": "hightlight",
+                "function": "highlight",
                 "component": "onoff",
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
@@ -103,7 +103,7 @@
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
             "12": {
-                "function": "hightlight",
+                "function": "highlight",
                 "component": "joystick",
                 "context": "Connect the GoGo Board to your computer or tablet via USB-C cable or Wi-Fi."
             },
